@@ -2,16 +2,16 @@
 
 
 
-# [Project Name] 🎯
+# uslessbutton🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: hehe
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
+- Team Lead: adhil muhammed N - AL Azhar college of engineering & technology
+- Member 2: muhammed bilal N - AL Azhar college of engineering & technology
 - Member 3: [Name] - [College]
 
 ### Project Description
