@@ -12,13 +12,12 @@
 ### Team Members
 - Team Lead: adhil muhammed N - AL Azhar college of engineering & technology
 - Member 2: muhammed bilal N - AL Azhar college of engineering & technology
-- Member 3: [Name] - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+useless button
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+usreless button
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
