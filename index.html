@@ -1,1 +1,106 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BUTTON1</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FF00FF; /* matches original &HFFFF00FF */
+    font-family: -apple-system, "Roboto", "Segoe UI", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-bar {
+    background-color: #3F51B5; /* AppTheme primary color */
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 20px;
+  }
+
+  #Label1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+  }
+
+  #BIGBUTTON {
+    font-size: 24px;
+    height: 100px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #DDDDDD;
+    border: 2px outset #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #BIGBUTTON:active {
+    border-style: inset;
+  }
+
+  #MESSAGE {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+  }
+
+  #Button1 {
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #DDDDDD;
+    border: 2px outset #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #Button1:active {
+    border-style: inset;
+  }
+</style>
+</head>
+<body>
+
+  <div class="action-bar">BUTTON1</div>
+
+  <div class="content">
+    <div id="Label1">THIS BUTTON DOES NOTHING</div>
+    <button id="BIGBUTTON">Button1</button>
+    <div id="MESSAGE">Text for Label2</div>
+    <button id="Button1">RESET</button>
+  </div>
+
+  <script>
+    // Faithful to the original App Inventor project: the BIGBUTTON.Click
+    // event block exists in the .bky file but has no blocks connected to it,
+    // and Button1 (RESET) has no event handler at all. So — true to the
+    // app's name — clicking either button does nothing.
+    document.getElementById('BIGBUTTON').addEventListener('click', function () {
+      // Intentionally does nothing.
+    });
+    document.getElementById('Button1').addEventListener('click', function () {
+      // Intentionally does nothing.
+    });
+  </script>
+
+</body>
+</html>
